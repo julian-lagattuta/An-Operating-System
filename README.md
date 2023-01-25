@@ -1,4 +1,4 @@
-# My Operating System
+# An Operating System
 
 I wanted to learn about how operating systems work. 
 

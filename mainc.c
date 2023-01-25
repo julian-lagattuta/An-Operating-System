@@ -4,7 +4,9 @@
 #include "clock.h"
 #include "page.h"
 #include "stdos.h"
-//STOLEN CODE
+
+
+
 
 void screenWrite(char* string){
     volatile char* video = 0xB8000;
@@ -14,6 +16,10 @@ void screenWrite(char* string){
         
     }   
 }
+
+
+
+
 extern void setup_gdt();
 int main(){
 
